@@ -1,0 +1,50 @@
+.post {
+  border-radius: 5px;
+  background-color: #fff;
+
+  padding: 25px;
+  margin: 20px 0 0;
+
+  box-shadow: 0px 0px 10px 0px rgba(209, 209, 209, 0.6);
+}
+
+.post hr {
+  height: 2px;
+  border: none;
+  background-color: #eeeeee;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.author .avatar img {
+  height: 32px;
+  width: 32px;
+
+  border-radius: 50%;
+}
+
+.author .info {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 10px;
+}
+
+.author .info strong {
+  color: #4a4a4a;
+}
+
+.author .info .date {
+  color: #9a9a9a;
+  font-size: 11px;
+
+  margin: 3px 0 0;
+}
+
+.content {
+  color: #3e3e3e;
+  padding: 15px 0 25px;
+}

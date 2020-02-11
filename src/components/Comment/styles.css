@@ -1,0 +1,26 @@
+.comment {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+
+  margin: 10px 0 0;
+}
+
+.comment .avatar img {
+  height: 32px;
+  width: 32px;
+
+  border-radius: 50%;
+}
+
+.comment .content {
+  color: #4a4a4a;
+  background-color: #eeeeee;
+
+  font-size: 13px;
+
+  padding: 7px;
+  margin: 0 0 0 10px;
+
+  border-radius: 10px;
+}
