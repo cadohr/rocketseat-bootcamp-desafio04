@@ -33,3 +33,7 @@ Start application with:
 ```sh
 yarn dev
 ```
+
+## Screenshot
+
+<img alt="Screenshot" src=".github/screenshot.png" />
